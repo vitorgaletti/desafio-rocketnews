@@ -1,0 +1,142 @@
+:root {
+  --body-bg-color: hsl(240, 5%, 7%);
+  --text-color: rgb(224, 224, 229);
+  --title-color: hsl(147, 96%, 42%);
+  --form-color: hsl(0, 0%, 66%);
+  --bg-button-color: hsl(258, 73%, 62%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Spartan', 'Work Sans', sans-serif;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 720px 1fr;
+}
+
+main {
+  height: 100vh;
+  background-color: var(--body-bg-color);
+}
+
+aside {
+  height: 100vh;
+  background-image: url(../assets/read_news.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  max-width: 389px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.logo > img {
+  width: 100%;
+  height: 5.88rem;
+}
+
+.news-info {
+  width: 40.44rem;
+  margin-top: 5.75rem;
+  margin-left: 2.25rem;
+}
+
+.news-info h2 {
+  color: var(--title-color);
+  font-family: 'Work Sans', 'sans-serif';
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+
+.news-info h3 {
+  color: var(--text-color);
+  font-family: 'Spartan', 'sans-serif';
+  font-weight: 700;
+  font-size: 0.88rem;
+  line-height: 1rem;
+  margin-top: 8.76px;
+}
+
+.news-info p {
+  color: var(--text-color);
+  font-family: 'Spartan', 'sans-serif';
+  font-weight: 400;
+  font-size: 0.88rem;
+  line-height: 1.21rem;
+  margin-top: 9px;
+}
+
+#form {
+  margin-left: 2.25rem;
+  margin-top: 50px;
+}
+
+#form > fieldset {
+  border: none;
+  padding: 0;
+}
+
+fieldset > legend {
+  color: var(--form-color);
+  font-family: 'Spartan', 'sans-serif';
+  font-weight: 700;
+  font-size: 0.87rem;
+  line-height: 1.18rem;
+}
+
+#email {
+  margin-top: 1.06rem;
+  width: 798px;
+  display: flex;
+}
+
+#email > input {
+  width: 798px;
+  border: none;
+  border-left: solid 5px var(--title-color);
+  filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+  font-family: 'Work Sans', 'sans-serif';
+  font-size: 0.75rem;
+  line-height: 0.87rem;
+  color: var(--form-color);
+  padding: 10px;
+}
+
+#email > button {
+  width: 48px;
+  height: 48px;
+  border: none;
+  background-color: var(--bg-button-color);
+  z-index: 1;
+}
+
+.link {
+  margin-top: 50px;
+  margin-left: 36px;
+}
+
+.link a {
+  text-decoration: none;
+  color: var(--bg-button-color);
+  font-family: 'Spartan', 'sans-serif';
+  font-weight: 700;
+  font-size: 0.88rem;
+  line-height: 1.18rem;
+  display: flex;
+  align-items: center;
+}

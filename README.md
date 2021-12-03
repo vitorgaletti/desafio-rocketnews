@@ -8,4 +8,4 @@ Desenvolva uma página para captação de leads ou newsletter.
 
 Figma: https://bit.ly/3olbYH5
 
-![Website](./assets/rocketnews.png)
+[![Website](./assets/rocketnews.png)](https://vitorgaletti.github.io/desafio-rocketnews/)

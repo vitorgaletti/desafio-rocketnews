@@ -117,6 +117,11 @@ fieldset > legend {
   padding: 10px;
 }
 
+input:focus { /*retirar a borda do input quando clicado*/
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
 #email > button {
   width: 48px;
   height: 48px;
